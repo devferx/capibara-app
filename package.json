@@ -6,14 +6,24 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue .",
+    "prettier": "prettier --write ."
   },
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-solid": "^0.11.0",
+    "prettier": "^2.8.4",
+    "standard": "^17.0.0",
     "vite": "^4.1.1",
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
     "solid-js": "^1.6.10"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:devferx/capibara-app.git",
+  "author": "devferx <ferkki@hotmail.com>"
 }
